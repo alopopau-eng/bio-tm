@@ -2,14 +2,10 @@ import React from "react";
 import type { Metadata } from "next";
 import "./globals.css";
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   title: "تأمين السيارات الشاملة | شركة الأمان",
   description:
     "خدمات تأمين السيارات الموثوقة مع حماية شاملة وأسعار تنافسية. نحن نوفر أفضل خطط التأمين لسيارتك.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
