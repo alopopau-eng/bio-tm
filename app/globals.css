@@ -83,7 +83,18 @@
     --chart-5: 340 75% 55%;
   }
 }
-
+@keyframes oper {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+.anim {
+  background-position: left;
+  animation: alternate oper linear 10s infinite;
+}
 @layer base {
   * {
     @apply border-border;
